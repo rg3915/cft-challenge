@@ -1,1 +1,1 @@
-web: genius.py
+web: flask run
