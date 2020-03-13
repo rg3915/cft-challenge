@@ -1,1 +1,1 @@
-web: gunicorn app:rg-genius-app
+web: genius.py
