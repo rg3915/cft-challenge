@@ -33,10 +33,15 @@ TOKEN=SEU_TOKEN_DO_GENIUS
 FLASK_APP=app:create_app
 ```
 
-## Rodando a app
+## Rodando os testes
 
 ```
 python -m unittest test_app.py
+```
+
+## Rodando a app
+
+```
 flask run
 ```
 
@@ -45,3 +50,16 @@ Em outro terminal faça:
 ```
 http get http://127.0.0.1:5000/artist/Metallica
 ```
+
+ou
+
+```
+curl http://127.0.0.1:5000/artist/Metallica
+```
+
+ou navegue pelo browser em
+
+```
+http://127.0.0.1:5000/artist/Metallica
+```
+
